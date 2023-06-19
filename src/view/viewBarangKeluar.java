@@ -225,27 +225,34 @@ public class viewBarangKeluar extends javax.swing.JInternalFrame {
         setResizable(true);
         setTitle("Menu Laporan Barang Keluar");
 
+        jPanel1.setBackground(new java.awt.Color(255, 250, 250));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Data Barang"));
 
+        jLabel2.setFont(new java.awt.Font("Gabi Estudies", 0, 18)); // NOI18N
         jLabel2.setText("Kode Barang");
 
+        jLabel3.setFont(new java.awt.Font("Gabi Estudies", 0, 18)); // NOI18N
         jLabel3.setText("Nama Barang");
 
+        jLabel4.setFont(new java.awt.Font("Gabi Estudies", 0, 18)); // NOI18N
         jLabel4.setText("Keterangan");
 
         namaBarang.setEnabled(false);
 
         keteranganBarang.setEnabled(false);
 
+        jLabel5.setFont(new java.awt.Font("Gabi Estudies", 0, 18)); // NOI18N
         jLabel5.setText("Stok");
 
         stokBarang.setEnabled(false);
 
         expBarang.setEnabled(false);
 
+        jLabel6.setFont(new java.awt.Font("Gabi Estudies", 0, 18)); // NOI18N
         jLabel6.setText("Tanggal Expired");
 
-        cariData.setBackground(new java.awt.Color(153, 153, 255));
+        cariData.setBackground(new java.awt.Color(255, 192, 203));
+        cariData.setFont(new java.awt.Font("Strawberry", 0, 18)); // NOI18N
         cariData.setText("Cari Data Barang");
         cariData.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         cariData.addActionListener(new java.awt.event.ActionListener() {
@@ -258,6 +265,7 @@ public class viewBarangKeluar extends javax.swing.JInternalFrame {
 
         barangMasuk.setEnabled(false);
 
+        jLabel7.setFont(new java.awt.Font("Gabi Estudies", 0, 18)); // NOI18N
         jLabel7.setText("Tanggal Masuk");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -323,6 +331,7 @@ public class viewBarangKeluar extends javax.swing.JInternalFrame {
                         .addGap(53, 53, 53))))
         );
 
+        jPanel2.setBackground(new java.awt.Color(255, 250, 250));
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Laporan Barang Keluar"));
 
         jLabel1.setText("ID Barang Keluar");
@@ -339,7 +348,7 @@ public class viewBarangKeluar extends javax.swing.JInternalFrame {
         keteranganKeluar.setRows(5);
         jScrollPane2.setViewportView(keteranganKeluar);
 
-        simpanBT.setBackground(new java.awt.Color(168, 228, 177));
+        simpanBT.setBackground(new java.awt.Color(255, 192, 203));
         simpanBT.setText("Simpan");
         simpanBT.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         simpanBT.addActionListener(new java.awt.event.ActionListener() {
@@ -348,7 +357,7 @@ public class viewBarangKeluar extends javax.swing.JInternalFrame {
             }
         });
 
-        batalBT.setBackground(new java.awt.Color(235, 168, 58));
+        batalBT.setBackground(new java.awt.Color(255, 192, 203));
         batalBT.setText("Batal");
         batalBT.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         batalBT.addActionListener(new java.awt.event.ActionListener() {
@@ -357,7 +366,7 @@ public class viewBarangKeluar extends javax.swing.JInternalFrame {
             }
         });
 
-        hapusBT.setBackground(new java.awt.Color(255, 51, 51));
+        hapusBT.setBackground(new java.awt.Color(255, 192, 203));
         hapusBT.setText("Hapus");
         hapusBT.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         hapusBT.addActionListener(new java.awt.event.ActionListener() {
@@ -366,7 +375,7 @@ public class viewBarangKeluar extends javax.swing.JInternalFrame {
             }
         });
 
-        cetakBT.setBackground(new java.awt.Color(102, 102, 255));
+        cetakBT.setBackground(new java.awt.Color(255, 192, 203));
         cetakBT.setText("Cetak");
         cetakBT.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         cetakBT.addActionListener(new java.awt.event.ActionListener() {
@@ -392,7 +401,7 @@ public class viewBarangKeluar extends javax.swing.JInternalFrame {
                     .addComponent(idBarangKeluar, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(barangKeluar, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jumlahBarangKeluar, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 91, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addComponent(hapusBT, javax.swing.GroupLayout.DEFAULT_SIZE, 67, Short.MAX_VALUE)
@@ -432,7 +441,7 @@ public class viewBarangKeluar extends javax.swing.JInternalFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        laporanBarangKeluar.setBackground(new java.awt.Color(204, 204, 255));
+        laporanBarangKeluar.setBackground(new java.awt.Color(255, 228, 225));
         laporanBarangKeluar.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         laporanBarangKeluar.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {

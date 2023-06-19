@@ -58,6 +58,9 @@
   <SubComponents>
     <Container class="javax.swing.JPanel" name="jPanel1">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="fa" green="fa" red="ff" type="rgb"/>
+        </Property>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
             <TitledBorder title="Data Barang"/>
@@ -148,16 +151,25 @@
       <SubComponents>
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gabi Estudies" size="18" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Kode Barang"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gabi Estudies" size="18" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Nama Barang"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel4">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gabi Estudies" size="18" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Keterangan"/>
           </Properties>
         </Component>
@@ -173,6 +185,9 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel5">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gabi Estudies" size="18" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Stok"/>
           </Properties>
         </Component>
@@ -188,13 +203,19 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel6">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gabi Estudies" size="18" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Tanggal Expired"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="cariData">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="99" red="99" type="rgb"/>
+              <Color blue="cb" green="c0" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Strawberry" size="18" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Cari Data Barang"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -219,6 +240,9 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel7">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gabi Estudies" size="18" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Tanggal Masuk"/>
           </Properties>
         </Component>
@@ -226,6 +250,9 @@
     </Container>
     <Container class="javax.swing.JPanel" name="jPanel2">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="fa" green="fa" red="ff" type="rgb"/>
+        </Property>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
             <TitledBorder title="Laporan Barang Keluar"/>
@@ -251,7 +278,7 @@
                       <Component id="barangKeluar" min="-2" pref="163" max="-2" attributes="0"/>
                       <Component id="jumlahBarangKeluar" min="-2" pref="163" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="91" max="32767" attributes="0"/>
+                  <EmptySpace pref="48" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
                           <Component id="hapusBT" alignment="0" pref="67" max="32767" attributes="0"/>
@@ -352,7 +379,7 @@
         <Component class="javax.swing.JButton" name="simpanBT">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="b1" green="e4" red="a8" type="rgb"/>
+              <Color blue="cb" green="c0" red="ff" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Simpan"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -368,7 +395,7 @@
         <Component class="javax.swing.JButton" name="batalBT">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="3a" green="a8" red="eb" type="rgb"/>
+              <Color blue="cb" green="c0" red="ff" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Batal"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -384,7 +411,7 @@
         <Component class="javax.swing.JButton" name="hapusBT">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="33" green="33" red="ff" type="rgb"/>
+              <Color blue="cb" green="c0" red="ff" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Hapus"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -400,7 +427,7 @@
         <Component class="javax.swing.JButton" name="cetakBT">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="66" red="66" type="rgb"/>
+              <Color blue="cb" green="c0" red="ff" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Cetak"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -425,7 +452,7 @@
         <Component class="javax.swing.JTable" name="laporanBarangKeluar">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="cc" red="cc" type="rgb"/>
+              <Color blue="e1" green="e4" red="ff" type="rgb"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">

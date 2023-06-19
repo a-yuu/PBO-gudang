@@ -43,8 +43,9 @@ public class app_utama extends javax.swing.JFrame {
         jMenuItem2 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(255, 250, 250));
 
-        dekstopUtama.setBackground(new java.awt.Color(153, 153, 255));
+        dekstopUtama.setBackground(new java.awt.Color(255, 240, 245));
 
         javax.swing.GroupLayout dekstopUtamaLayout = new javax.swing.GroupLayout(dekstopUtama);
         dekstopUtama.setLayout(dekstopUtamaLayout);
@@ -60,7 +61,7 @@ public class app_utama extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Cambria", 1, 24)); // NOI18N
         jLabel1.setText("Program Inventory Management CV. Cemerlang Dwi Lestari");
 
-        jMenuBar1.setBackground(new java.awt.Color(204, 204, 255));
+        jMenuBar1.setBackground(new java.awt.Color(255, 240, 245));
 
         jMenu1.setText("File");
 

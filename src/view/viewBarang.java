@@ -228,13 +228,14 @@ public class viewBarang extends javax.swing.JInternalFrame {
         jLabel7 = new javax.swing.JLabel();
         barangMasuk = new javax.swing.JTextField();
 
+        setBackground(new java.awt.Color(255, 250, 250));
         setClosable(true);
         setIconifiable(true);
         setMaximizable(true);
         setResizable(true);
         setTitle("Menu Inventaris Barang");
 
-        tombolBatal.setBackground(new java.awt.Color(235, 168, 58));
+        tombolBatal.setBackground(new java.awt.Color(255, 192, 203));
         tombolBatal.setText("Batal");
         tombolBatal.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         tombolBatal.addActionListener(new java.awt.event.ActionListener() {
@@ -276,7 +277,7 @@ public class viewBarang extends javax.swing.JInternalFrame {
 
         jLabel2.setText("Keterangan");
 
-        tombolUbah.setBackground(new java.awt.Color(51, 51, 255));
+        tombolUbah.setBackground(new java.awt.Color(255, 192, 203));
         tombolUbah.setText("Ubah");
         tombolUbah.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         tombolUbah.addActionListener(new java.awt.event.ActionListener() {
@@ -285,7 +286,7 @@ public class viewBarang extends javax.swing.JInternalFrame {
             }
         });
 
-        tombolSimpan.setBackground(new java.awt.Color(168, 228, 177));
+        tombolSimpan.setBackground(new java.awt.Color(255, 192, 203));
         tombolSimpan.setText("Simpan");
         tombolSimpan.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         tombolSimpan.addActionListener(new java.awt.event.ActionListener() {
@@ -294,7 +295,7 @@ public class viewBarang extends javax.swing.JInternalFrame {
             }
         });
 
-        tombolHapus.setBackground(new java.awt.Color(255, 51, 51));
+        tombolHapus.setBackground(new java.awt.Color(255, 192, 203));
         tombolHapus.setText("Hapus");
         tombolHapus.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         tombolHapus.addActionListener(new java.awt.event.ActionListener() {
@@ -303,7 +304,8 @@ public class viewBarang extends javax.swing.JInternalFrame {
             }
         });
 
-        tabelBarang.setBackground(new java.awt.Color(204, 204, 255));
+        tabelBarang.setAutoCreateRowSorter(true);
+        tabelBarang.setBackground(new java.awt.Color(255, 228, 225));
         tabelBarang.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         tabelBarang.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -390,7 +392,7 @@ public class viewBarang extends javax.swing.JInternalFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 274, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 39, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 376, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(tombolBatal, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(tombolHapus, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)

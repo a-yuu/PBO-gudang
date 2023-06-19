@@ -185,8 +185,9 @@ public class viewListDataBarang extends javax.swing.JFrame {
         ExpDesc = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(255, 250, 250));
 
-        viewListDataBarang.setBackground(new java.awt.Color(204, 204, 255));
+        viewListDataBarang.setBackground(new java.awt.Color(255, 228, 225));
         viewListDataBarang.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
@@ -212,9 +213,10 @@ public class viewListDataBarang extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("DK Lemon Yellow Sun", 0, 24)); // NOI18N
         jLabel1.setText("Daftar Barang");
 
+        jLabel2.setFont(new java.awt.Font("Gabi Estudies", 0, 18)); // NOI18N
         jLabel2.setText("Cari Data Barang");
 
         ExpAsc.setText(" Exp  ↗ ");
@@ -236,16 +238,14 @@ public class viewListDataBarang extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addGap(182, 182, 182)
+                                .addGap(188, 188, 188)
                                 .addComponent(jLabel1))
                             .addGroup(layout.createSequentialGroup()
-                                .addGap(10, 10, 10)
+                                .addGap(16, 16, 16)
                                 .addComponent(jLabel2)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(namaBarang, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -253,7 +253,8 @@ public class viewListDataBarang extends javax.swing.JFrame {
                                 .addComponent(ExpAsc)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(ExpDesc)))
-                        .addGap(0, 44, Short.MAX_VALUE)))
+                        .addGap(0, 15, Short.MAX_VALUE))
+                    .addComponent(jScrollPane))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -271,9 +272,9 @@ public class viewListDataBarang extends javax.swing.JFrame {
                         .addGap(50, 50, 50)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(ExpAsc)
-                            .addComponent(ExpDesc))
-                        .addGap(18, 18, 18)
-                        .addComponent(jScrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, 272, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(ExpDesc))))
+                .addGap(18, 18, 18)
+                .addComponent(jScrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, 272, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(24, Short.MAX_VALUE))
         );
 
