@@ -68,15 +68,16 @@ public class viewLogin extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(255, 228, 225));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Halaman Login", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 12))); // NOI18N
 
-        jLabel1.setFont(new java.awt.Font("DK Lemon Yellow Sun", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("DK Lemon Yellow Sun", 0, 36)); // NOI18N
         jLabel1.setText("CV. PBO");
 
-        jLabel2.setFont(new java.awt.Font("Gabi Estudies", 0, 18)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
         jLabel2.setText("Username ");
 
-        jLabel3.setFont(new java.awt.Font("Gabi Estudies", 0, 18)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
         jLabel3.setText("Password");
 
+        username.setFont(new java.awt.Font("SimSun", 0, 14)); // NOI18N
         username.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 usernameKeyPressed(evt);
@@ -93,9 +94,10 @@ public class viewLogin extends javax.swing.JFrame {
             }
         });
 
-        jLabel4.setFont(new java.awt.Font("Gabi Estudies", 0, 18)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Strawberry", 0, 24)); // NOI18N
         jLabel4.setText("Silahkan login untuk masuk ke dalam sistem");
 
+        password.setFont(new java.awt.Font("SimSun", 0, 14)); // NOI18N
         password.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 passwordKeyPressed(evt);
@@ -123,20 +125,20 @@ public class viewLogin extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(245, 245, 245)
                         .addComponent(jLabel4)))
-                .addContainerGap(178, Short.MAX_VALUE))
+                .addContainerGap(220, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(jLabel1)
-                .addGap(276, 276, 276))
+                .addGap(307, 307, 307))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(23, 23, 23)
+                .addGap(29, 29, 29)
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel4)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 50, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 66, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(username, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel2))

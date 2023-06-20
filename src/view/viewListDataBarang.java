@@ -188,6 +188,7 @@ public class viewListDataBarang extends javax.swing.JFrame {
         setBackground(new java.awt.Color(255, 250, 250));
 
         viewListDataBarang.setBackground(new java.awt.Color(255, 228, 225));
+        viewListDataBarang.setFont(new java.awt.Font("SimSun", 0, 14)); // NOI18N
         viewListDataBarang.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
@@ -207,6 +208,7 @@ public class viewListDataBarang extends javax.swing.JFrame {
         });
         jScrollPane.setViewportView(viewListDataBarang);
 
+        namaBarang.setFont(new java.awt.Font("SimSun", 0, 14)); // NOI18N
         namaBarang.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 namaBarangKeyPressed(evt);
@@ -216,7 +218,7 @@ public class viewListDataBarang extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("DK Lemon Yellow Sun", 0, 24)); // NOI18N
         jLabel1.setText("Daftar Barang");
 
-        jLabel2.setFont(new java.awt.Font("Gabi Estudies", 0, 18)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
         jLabel2.setText("Cari Data Barang");
 
         ExpAsc.setText(" Exp  ↗ ");
@@ -253,7 +255,7 @@ public class viewListDataBarang extends javax.swing.JFrame {
                                 .addComponent(ExpAsc)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(ExpDesc)))
-                        .addGap(0, 15, Short.MAX_VALUE))
+                        .addGap(0, 37, Short.MAX_VALUE))
                     .addComponent(jScrollPane))
                 .addContainerGap())
         );
@@ -275,7 +277,7 @@ public class viewListDataBarang extends javax.swing.JFrame {
                             .addComponent(ExpDesc))))
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, 272, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(24, Short.MAX_VALUE))
+                .addContainerGap(18, Short.MAX_VALUE))
         );
 
         pack();

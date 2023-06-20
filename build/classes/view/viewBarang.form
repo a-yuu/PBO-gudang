@@ -83,38 +83,27 @@
               </Group>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="jScrollPane2" min="-2" pref="745" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace pref="582" max="32767" attributes="0"/>
                       <Component id="ExpAsc" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                       <Component id="ExpDesc" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="56" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" pref="766" max="-2" attributes="0"/>
+                      <EmptySpace pref="36" max="32767" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="66" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Group type="102" alignment="1" attributes="0">
-                      <Component id="jScrollPane2" min="-2" pref="274" max="-2" attributes="0"/>
-                      <EmptySpace pref="376" max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="tombolBatal" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
-                          <Component id="tombolHapus" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
-                          <Component id="tombolUbah" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
-                          <Component id="tombolSimpan" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                          <Component id="ExpAsc" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="ExpDesc" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
                       <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -140,7 +129,19 @@
                           <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="barangMasuk" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="412" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jScrollPane2" min="-2" pref="297" max="-2" attributes="0"/>
+                      <EmptySpace pref="362" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="tombolBatal" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="tombolHapus" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="tombolUbah" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="tombolSimpan" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="ExpAsc" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ExpDesc" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -168,17 +169,25 @@
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="14" style="1"/>
+          <Font name="DK Lemon Yellow Sun" size="24" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Inventaris Barang"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Gabriola" size="18" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Stok"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="kodeBarang">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SimSun" size="14" style="0"/>
+        </Property>
+      </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="ExpAsc">
       <Properties>
@@ -198,12 +207,20 @@
         <Component class="javax.swing.JTextArea" name="keteranganBarang">
           <Properties>
             <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SimSun" size="14" style="0"/>
+            </Property>
             <Property name="rows" type="int" value="5"/>
           </Properties>
         </Component>
       </SubComponents>
     </Container>
     <Component class="javax.swing.JTextField" name="stokBarang">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SimSun" size="14" style="0"/>
+        </Property>
+      </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="ExpDesc">
       <Properties>
@@ -214,29 +231,49 @@
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="namaBarang">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SimSun" size="14" style="0"/>
+        </Property>
+      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel6">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Gabriola" size="18" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Kode Barang"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel5">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Gabriola" size="18" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Tanggal Exp"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Gabriola" size="18" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Nama Barang"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="expBarang">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SimSun" size="14" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="yyyy-mm-dd"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Gabriola" size="18" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Keterangan"/>
       </Properties>
     </Component>
@@ -306,6 +343,9 @@
                 <BevelBorder/>
               </Border>
             </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SimSun" size="14" style="0"/>
+            </Property>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="4" rowCount="4">
                 <Column editable="true" title="Title 1" type="java.lang.Object"/>
@@ -326,11 +366,17 @@
     </Container>
     <Component class="javax.swing.JLabel" name="jLabel7">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Gabriola" size="18" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Tanggal Barang Masuk"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="barangMasuk">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SimSun" size="14" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="yyyy-mm-dd"/>
       </Properties>
     </Component>

@@ -55,17 +55,19 @@ public class app_utama extends javax.swing.JFrame {
         );
         dekstopUtamaLayout.setVerticalGroup(
             dekstopUtamaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 445, Short.MAX_VALUE)
+            .addGap(0, 437, Short.MAX_VALUE)
         );
 
-        jLabel1.setFont(new java.awt.Font("Cambria", 1, 24)); // NOI18N
-        jLabel1.setText("Program Inventory Management CV. Cemerlang Dwi Lestari");
+        jLabel1.setFont(new java.awt.Font("DK Lemon Yellow Sun", 1, 24)); // NOI18N
+        jLabel1.setText("Program Inventory Management CV. PBO");
 
         jMenuBar1.setBackground(new java.awt.Color(255, 240, 245));
 
         jMenu1.setText("File");
+        jMenu1.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
 
         jMenuItem3.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_X, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMenuItem3.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
         jMenuItem3.setText("Exit");
         jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -77,8 +79,10 @@ public class app_utama extends javax.swing.JFrame {
         jMenuBar1.add(jMenu1);
 
         jMenu2.setText("Data Master");
+        jMenu2.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
 
         jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_I, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMenuItem1.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
         jMenuItem1.setText("Inventaris Barang");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -90,8 +94,10 @@ public class app_utama extends javax.swing.JFrame {
         jMenuBar1.add(jMenu2);
 
         jMenu3.setText("Laporan");
+        jMenu3.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
 
         jMenuItem2.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_O, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jMenuItem2.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
         jMenuItem2.setText("Barang Keluar");
         jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -113,7 +119,7 @@ public class app_utama extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(dekstopUtama)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel1)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 367, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );

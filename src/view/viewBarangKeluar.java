@@ -228,27 +228,31 @@ public class viewBarangKeluar extends javax.swing.JInternalFrame {
         jPanel1.setBackground(new java.awt.Color(255, 250, 250));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Data Barang"));
 
-        jLabel2.setFont(new java.awt.Font("Gabi Estudies", 0, 18)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
         jLabel2.setText("Kode Barang");
 
-        jLabel3.setFont(new java.awt.Font("Gabi Estudies", 0, 18)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
         jLabel3.setText("Nama Barang");
 
-        jLabel4.setFont(new java.awt.Font("Gabi Estudies", 0, 18)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
         jLabel4.setText("Keterangan");
 
+        namaBarang.setFont(new java.awt.Font("SimSun", 0, 14)); // NOI18N
         namaBarang.setEnabled(false);
 
+        keteranganBarang.setFont(new java.awt.Font("SimSun", 0, 14)); // NOI18N
         keteranganBarang.setEnabled(false);
 
-        jLabel5.setFont(new java.awt.Font("Gabi Estudies", 0, 18)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
         jLabel5.setText("Stok");
 
+        stokBarang.setFont(new java.awt.Font("SimSun", 0, 14)); // NOI18N
         stokBarang.setEnabled(false);
 
+        expBarang.setFont(new java.awt.Font("SimSun", 0, 14)); // NOI18N
         expBarang.setEnabled(false);
 
-        jLabel6.setFont(new java.awt.Font("Gabi Estudies", 0, 18)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
         jLabel6.setText("Tanggal Expired");
 
         cariData.setBackground(new java.awt.Color(255, 192, 203));
@@ -261,11 +265,13 @@ public class viewBarangKeluar extends javax.swing.JInternalFrame {
             }
         });
 
+        kodeBarang.setFont(new java.awt.Font("SimSun", 0, 14)); // NOI18N
         kodeBarang.setEnabled(false);
 
+        barangMasuk.setFont(new java.awt.Font("SimSun", 0, 14)); // NOI18N
         barangMasuk.setEnabled(false);
 
-        jLabel7.setFont(new java.awt.Font("Gabi Estudies", 0, 18)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
         jLabel7.setText("Tanggal Masuk");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -334,21 +340,32 @@ public class viewBarangKeluar extends javax.swing.JInternalFrame {
         jPanel2.setBackground(new java.awt.Color(255, 250, 250));
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Laporan Barang Keluar"));
 
+        idBarangKeluar.setFont(new java.awt.Font("SimSun", 0, 14)); // NOI18N
+
+        jLabel1.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
         jLabel1.setText("ID Barang Keluar");
 
+        jLabel8.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
         jLabel8.setText("Jumlah Barang Keluar");
 
+        jumlahBarangKeluar.setFont(new java.awt.Font("SimSun", 0, 14)); // NOI18N
+
+        jLabel9.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
         jLabel9.setText("Tanggal Keluar");
 
+        barangKeluar.setFont(new java.awt.Font("SimSun", 0, 14)); // NOI18N
         barangKeluar.setText("yyyy-mm-dd");
 
+        jLabel10.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
         jLabel10.setText("Keterangan");
 
         keteranganKeluar.setColumns(20);
+        keteranganKeluar.setFont(new java.awt.Font("SimSun", 0, 14)); // NOI18N
         keteranganKeluar.setRows(5);
         jScrollPane2.setViewportView(keteranganKeluar);
 
         simpanBT.setBackground(new java.awt.Color(255, 192, 203));
+        simpanBT.setFont(new java.awt.Font("Strawberry", 0, 18)); // NOI18N
         simpanBT.setText("Simpan");
         simpanBT.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         simpanBT.addActionListener(new java.awt.event.ActionListener() {
@@ -358,6 +375,7 @@ public class viewBarangKeluar extends javax.swing.JInternalFrame {
         });
 
         batalBT.setBackground(new java.awt.Color(255, 192, 203));
+        batalBT.setFont(new java.awt.Font("Strawberry", 0, 18)); // NOI18N
         batalBT.setText("Batal");
         batalBT.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         batalBT.addActionListener(new java.awt.event.ActionListener() {
@@ -367,6 +385,7 @@ public class viewBarangKeluar extends javax.swing.JInternalFrame {
         });
 
         hapusBT.setBackground(new java.awt.Color(255, 192, 203));
+        hapusBT.setFont(new java.awt.Font("Strawberry", 0, 18)); // NOI18N
         hapusBT.setText("Hapus");
         hapusBT.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         hapusBT.addActionListener(new java.awt.event.ActionListener() {
@@ -376,6 +395,7 @@ public class viewBarangKeluar extends javax.swing.JInternalFrame {
         });
 
         cetakBT.setBackground(new java.awt.Color(255, 192, 203));
+        cetakBT.setFont(new java.awt.Font("Strawberry", 0, 18)); // NOI18N
         cetakBT.setText("Cetak");
         cetakBT.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         cetakBT.addActionListener(new java.awt.event.ActionListener() {
@@ -401,7 +421,7 @@ public class viewBarangKeluar extends javax.swing.JInternalFrame {
                     .addComponent(idBarangKeluar, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(barangKeluar, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jumlahBarangKeluar, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 81, Short.MAX_VALUE)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addComponent(hapusBT, javax.swing.GroupLayout.DEFAULT_SIZE, 67, Short.MAX_VALUE)
@@ -443,6 +463,7 @@ public class viewBarangKeluar extends javax.swing.JInternalFrame {
 
         laporanBarangKeluar.setBackground(new java.awt.Color(255, 228, 225));
         laporanBarangKeluar.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        laporanBarangKeluar.setFont(new java.awt.Font("SimSun", 0, 14)); // NOI18N
         laporanBarangKeluar.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},

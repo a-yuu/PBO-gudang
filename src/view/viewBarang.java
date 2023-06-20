@@ -244,10 +244,13 @@ public class viewBarang extends javax.swing.JInternalFrame {
             }
         });
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("DK Lemon Yellow Sun", 1, 24)); // NOI18N
         jLabel3.setText("Inventaris Barang");
 
+        jLabel4.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
         jLabel4.setText("Stok");
+
+        kodeBarang.setFont(new java.awt.Font("SimSun", 0, 14)); // NOI18N
 
         ExpAsc.setText(" Exp  ↗ ");
         ExpAsc.addActionListener(new java.awt.event.ActionListener() {
@@ -257,8 +260,11 @@ public class viewBarang extends javax.swing.JInternalFrame {
         });
 
         keteranganBarang.setColumns(20);
+        keteranganBarang.setFont(new java.awt.Font("SimSun", 0, 14)); // NOI18N
         keteranganBarang.setRows(5);
         jScrollPane1.setViewportView(keteranganBarang);
+
+        stokBarang.setFont(new java.awt.Font("SimSun", 0, 14)); // NOI18N
 
         ExpDesc.setText(" Exp   ↙ ");
         ExpDesc.addActionListener(new java.awt.event.ActionListener() {
@@ -267,14 +273,21 @@ public class viewBarang extends javax.swing.JInternalFrame {
             }
         });
 
+        namaBarang.setFont(new java.awt.Font("SimSun", 0, 14)); // NOI18N
+
+        jLabel6.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
         jLabel6.setText("Kode Barang");
 
+        jLabel5.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
         jLabel5.setText("Tanggal Exp");
 
+        jLabel1.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
         jLabel1.setText("Nama Barang");
 
+        expBarang.setFont(new java.awt.Font("SimSun", 0, 14)); // NOI18N
         expBarang.setText("yyyy-mm-dd");
 
+        jLabel2.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
         jLabel2.setText("Keterangan");
 
         tombolUbah.setBackground(new java.awt.Color(255, 192, 203));
@@ -307,6 +320,7 @@ public class viewBarang extends javax.swing.JInternalFrame {
         tabelBarang.setAutoCreateRowSorter(true);
         tabelBarang.setBackground(new java.awt.Color(255, 228, 225));
         tabelBarang.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        tabelBarang.setFont(new java.awt.Font("SimSun", 0, 14)); // NOI18N
         tabelBarang.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
@@ -326,8 +340,10 @@ public class viewBarang extends javax.swing.JInternalFrame {
         });
         jScrollPane2.setViewportView(tabelBarang);
 
+        jLabel7.setFont(new java.awt.Font("Gabriola", 0, 18)); // NOI18N
         jLabel7.setText("Tanggal Barang Masuk");
 
+        barangMasuk.setFont(new java.awt.Font("SimSun", 0, 14)); // NOI18N
         barangMasuk.setText("yyyy-mm-dd");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -376,30 +392,21 @@ public class viewBarang extends javax.swing.JInternalFrame {
                         .addComponent(tombolSimpan, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 745, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 582, Short.MAX_VALUE)
                         .addComponent(ExpAsc)
                         .addGap(31, 31, 31)
-                        .addComponent(ExpDesc)))
-                .addContainerGap(66, Short.MAX_VALUE))
+                        .addComponent(ExpDesc)
+                        .addContainerGap(56, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 766, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(36, Short.MAX_VALUE))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(15, 15, 15)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 274, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 376, Short.MAX_VALUE)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(tombolBatal, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(tombolHapus, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(tombolUbah, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(tombolSimpan, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(ExpAsc)
-                            .addComponent(ExpDesc)))
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel3)
                         .addGap(18, 18, 18)
@@ -422,7 +429,17 @@ public class viewBarang extends javax.swing.JInternalFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel7)
                             .addComponent(barangMasuk, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                        .addGap(0, 412, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 297, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 362, Short.MAX_VALUE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(tombolBatal, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(tombolHapus, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(tombolUbah, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(tombolSimpan, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(ExpAsc)
+                            .addComponent(ExpDesc))))
                 .addContainerGap())
         );
 
